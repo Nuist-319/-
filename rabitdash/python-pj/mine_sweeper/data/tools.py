@@ -66,8 +66,8 @@ class Control(object):
     def event_loop(self):
         if self.state.need_event:
             self.event = get_user_action(stdscr)
-        else:
-            self.state.get_event(self.event)
+    
+        self.state.get_event(self.event)
 
     def main(self):
         """Main loop for entire program"""
