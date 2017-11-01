@@ -1,0 +1,7 @@
+repobot.sh
+*.py[cod]
+.idea
+.vscode
+*.swp
+__pycache__/*
+*.*~
